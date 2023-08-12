@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-size: cover;
+            min-height: 100vh;
+            background-image: url(https://i.pinimg.com/280x280_RS/3b/07/08/3b0708050c1c5cdd09574f1fe0a068ef.jpg);
+        }
+        @media (max-width:400px){
+            body{
+                background-color: yellow;
+                background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTrsJ1KCX86xut9NXxgYouQVNXg6N9HOPAyg&usqp=CAU);
+            }
+        }
+        .register{
+            
+            margin: auto;
+            width:40%;
+            padding: 20px;
+            text-align: center;
+        }
+        .register>input{
+            padding: 1%;
+            width: 50%;
+        }
+        .gender{
+            display: auto;
+            width: 10%%;
+            margin: auto;
+        }
+        .register .button{
+            width:40%;
+            padding:1% 0%;
+        }
+    </style>
+</head>
+<body>
+    <form class="register" name="from1" action="https://www.instagram.com/">
+        <h1>Registration Form</h1>
+    <p><input type="text" placeholder="Enter name"/></p>
+    <p><input placeholder="Enter email"/></p>
+    <p><input  type="password" placeholder="Enter password"/></p>
+    <p><input type="date"/>Date of Birth</p>
+    <p>
+        <input  class="gender"  type="radio" name="gender"/>Male
+        <input class="gender" type="radio" name="gender"/>Female
+    </p>
+    <p> 
+    <input type="text" name="country code" placeholder="Country Code"  value="+91" size="2"/>   
+    <input type="text" name="phone" placeholder="phone no." size="10"> 
+    </p>
+    <button class="button">Submit</button>
+    
+</form>
+</body>
+</html>
